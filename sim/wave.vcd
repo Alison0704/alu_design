@@ -1,0 +1,689 @@
+$date
+  Sat Oct 18 12:54:29 2025
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module tb_top_module $end
+$var reg 4 ! a_s[3:0] $end
+$var reg 4 " b_s[3:0] $end
+$var reg 3 # sel_s[2:0] $end
+$var reg 4 $ ans_s[3:0] $end
+$var reg 1 % equals_s $end
+$var reg 1 & carry_s $end
+$var reg 1 ' zero_s $end
+$scope module uut $end
+$var reg 4 ( a[3:0] $end
+$var reg 4 ) b[3:0] $end
+$var reg 3 * sel[2:0] $end
+$var reg 4 + ans[3:0] $end
+$var reg 1 , equals $end
+$var reg 1 - carry $end
+$var reg 1 . zero $end
+$var reg 1 / sub_s $end
+$var reg 4 0 notb_s[3:0] $end
+$var reg 4 1 nota_s[3:0] $end
+$var reg 4 2 or_ab_s[3:0] $end
+$var reg 4 3 and_ab_s[3:0] $end
+$var reg 4 4 xor_ab_s[3:0] $end
+$var reg 4 5 cout_s[3:0] $end
+$var reg 4 6 sum_s[3:0] $end
+$var reg 4 7 ans_s[3:0] $end
+$scope module bit1alu_inst0 $end
+$var reg 1 8 a $end
+$var reg 1 9 b $end
+$var reg 1 : cin $end
+$var reg 1 ; sub $end
+$var reg 1 < notb $end
+$var reg 1 = nota $end
+$var reg 1 > or_ab $end
+$var reg 1 ? and_ab $end
+$var reg 1 @ xor_ab $end
+$var reg 1 A cout $end
+$var reg 1 B sum $end
+$var reg 1 C b_xor_sub $end
+$scope module and_inst $end
+$var reg 1 D a $end
+$var reg 1 E b $end
+$var reg 1 F y $end
+$upscope $end
+$scope module or_inst $end
+$var reg 1 G a $end
+$var reg 1 H b $end
+$var reg 1 I y $end
+$upscope $end
+$scope module xor_inst $end
+$var reg 1 J a $end
+$var reg 1 K b $end
+$var reg 1 L y $end
+$upscope $end
+$scope module fa_inst $end
+$var reg 1 M a $end
+$var reg 1 N b $end
+$var reg 1 O cin $end
+$var reg 1 P sub $end
+$var reg 1 Q sum $end
+$var reg 1 R cout $end
+$var reg 1 S w1 $end
+$var reg 1 T w2 $end
+$var reg 1 U w3 $end
+$var reg 1 V w4 $end
+$scope module inst_xor1 $end
+$var reg 1 W a $end
+$var reg 1 X b $end
+$var reg 1 Y y $end
+$upscope $end
+$scope module inst_xor2 $end
+$var reg 1 Z a $end
+$var reg 1 [ b $end
+$var reg 1 \ y $end
+$upscope $end
+$scope module inst_and1 $end
+$var reg 1 ] a $end
+$var reg 1 ^ b $end
+$var reg 1 _ y $end
+$upscope $end
+$scope module inst_and2 $end
+$var reg 1 ` a $end
+$var reg 1 a b $end
+$var reg 1 b y $end
+$upscope $end
+$scope module inst_xor3 $end
+$var reg 1 c a $end
+$var reg 1 d b $end
+$var reg 1 e y $end
+$upscope $end
+$scope module inst_or1 $end
+$var reg 1 f a $end
+$var reg 1 g b $end
+$var reg 1 h y $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module bit1alu_inst1 $end
+$var reg 1 i a $end
+$var reg 1 j b $end
+$var reg 1 k cin $end
+$var reg 1 l sub $end
+$var reg 1 m notb $end
+$var reg 1 n nota $end
+$var reg 1 o or_ab $end
+$var reg 1 p and_ab $end
+$var reg 1 q xor_ab $end
+$var reg 1 r cout $end
+$var reg 1 s sum $end
+$var reg 1 t b_xor_sub $end
+$scope module and_inst $end
+$var reg 1 u a $end
+$var reg 1 v b $end
+$var reg 1 w y $end
+$upscope $end
+$scope module or_inst $end
+$var reg 1 x a $end
+$var reg 1 y b $end
+$var reg 1 z y $end
+$upscope $end
+$scope module xor_inst $end
+$var reg 1 { a $end
+$var reg 1 | b $end
+$var reg 1 } y $end
+$upscope $end
+$scope module fa_inst $end
+$var reg 1 !" a $end
+$var reg 1 "" b $end
+$var reg 1 #" cin $end
+$var reg 1 $" sub $end
+$var reg 1 %" sum $end
+$var reg 1 &" cout $end
+$var reg 1 '" w1 $end
+$var reg 1 (" w2 $end
+$var reg 1 )" w3 $end
+$var reg 1 *" w4 $end
+$scope module inst_xor1 $end
+$var reg 1 +" a $end
+$var reg 1 ," b $end
+$var reg 1 -" y $end
+$upscope $end
+$scope module inst_xor2 $end
+$var reg 1 ." a $end
+$var reg 1 /" b $end
+$var reg 1 0" y $end
+$upscope $end
+$scope module inst_and1 $end
+$var reg 1 1" a $end
+$var reg 1 2" b $end
+$var reg 1 3" y $end
+$upscope $end
+$scope module inst_and2 $end
+$var reg 1 4" a $end
+$var reg 1 5" b $end
+$var reg 1 6" y $end
+$upscope $end
+$scope module inst_xor3 $end
+$var reg 1 7" a $end
+$var reg 1 8" b $end
+$var reg 1 9" y $end
+$upscope $end
+$scope module inst_or1 $end
+$var reg 1 :" a $end
+$var reg 1 ;" b $end
+$var reg 1 <" y $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module bit1alu_inst2 $end
+$var reg 1 =" a $end
+$var reg 1 >" b $end
+$var reg 1 ?" cin $end
+$var reg 1 @" sub $end
+$var reg 1 A" notb $end
+$var reg 1 B" nota $end
+$var reg 1 C" or_ab $end
+$var reg 1 D" and_ab $end
+$var reg 1 E" xor_ab $end
+$var reg 1 F" cout $end
+$var reg 1 G" sum $end
+$var reg 1 H" b_xor_sub $end
+$scope module and_inst $end
+$var reg 1 I" a $end
+$var reg 1 J" b $end
+$var reg 1 K" y $end
+$upscope $end
+$scope module or_inst $end
+$var reg 1 L" a $end
+$var reg 1 M" b $end
+$var reg 1 N" y $end
+$upscope $end
+$scope module xor_inst $end
+$var reg 1 O" a $end
+$var reg 1 P" b $end
+$var reg 1 Q" y $end
+$upscope $end
+$scope module fa_inst $end
+$var reg 1 R" a $end
+$var reg 1 S" b $end
+$var reg 1 T" cin $end
+$var reg 1 U" sub $end
+$var reg 1 V" sum $end
+$var reg 1 W" cout $end
+$var reg 1 X" w1 $end
+$var reg 1 Y" w2 $end
+$var reg 1 Z" w3 $end
+$var reg 1 [" w4 $end
+$scope module inst_xor1 $end
+$var reg 1 \" a $end
+$var reg 1 ]" b $end
+$var reg 1 ^" y $end
+$upscope $end
+$scope module inst_xor2 $end
+$var reg 1 _" a $end
+$var reg 1 `" b $end
+$var reg 1 a" y $end
+$upscope $end
+$scope module inst_and1 $end
+$var reg 1 b" a $end
+$var reg 1 c" b $end
+$var reg 1 d" y $end
+$upscope $end
+$scope module inst_and2 $end
+$var reg 1 e" a $end
+$var reg 1 f" b $end
+$var reg 1 g" y $end
+$upscope $end
+$scope module inst_xor3 $end
+$var reg 1 h" a $end
+$var reg 1 i" b $end
+$var reg 1 j" y $end
+$upscope $end
+$scope module inst_or1 $end
+$var reg 1 k" a $end
+$var reg 1 l" b $end
+$var reg 1 m" y $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module bit1alu_inst3 $end
+$var reg 1 n" a $end
+$var reg 1 o" b $end
+$var reg 1 p" cin $end
+$var reg 1 q" sub $end
+$var reg 1 r" notb $end
+$var reg 1 s" nota $end
+$var reg 1 t" or_ab $end
+$var reg 1 u" and_ab $end
+$var reg 1 v" xor_ab $end
+$var reg 1 w" cout $end
+$var reg 1 x" sum $end
+$var reg 1 y" b_xor_sub $end
+$scope module and_inst $end
+$var reg 1 z" a $end
+$var reg 1 {" b $end
+$var reg 1 |" y $end
+$upscope $end
+$scope module or_inst $end
+$var reg 1 }" a $end
+$var reg 1 !# b $end
+$var reg 1 "# y $end
+$upscope $end
+$scope module xor_inst $end
+$var reg 1 ## a $end
+$var reg 1 $# b $end
+$var reg 1 %# y $end
+$upscope $end
+$scope module fa_inst $end
+$var reg 1 &# a $end
+$var reg 1 '# b $end
+$var reg 1 (# cin $end
+$var reg 1 )# sub $end
+$var reg 1 *# sum $end
+$var reg 1 +# cout $end
+$var reg 1 ,# w1 $end
+$var reg 1 -# w2 $end
+$var reg 1 .# w3 $end
+$var reg 1 /# w4 $end
+$scope module inst_xor1 $end
+$var reg 1 0# a $end
+$var reg 1 1# b $end
+$var reg 1 2# y $end
+$upscope $end
+$scope module inst_xor2 $end
+$var reg 1 3# a $end
+$var reg 1 4# b $end
+$var reg 1 5# y $end
+$upscope $end
+$scope module inst_and1 $end
+$var reg 1 6# a $end
+$var reg 1 7# b $end
+$var reg 1 8# y $end
+$upscope $end
+$scope module inst_and2 $end
+$var reg 1 9# a $end
+$var reg 1 :# b $end
+$var reg 1 ;# y $end
+$upscope $end
+$scope module inst_xor3 $end
+$var reg 1 <# a $end
+$var reg 1 =# b $end
+$var reg 1 ># y $end
+$upscope $end
+$scope module inst_or1 $end
+$var reg 1 ?# a $end
+$var reg 1 @# b $end
+$var reg 1 A# y $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b0001 !
+b1010 "
+b000 #
+b1U11 $
+0%
+0&
+0'
+b0001 (
+b1010 )
+b000 *
+b1U11 +
+0,
+0-
+0.
+0/
+b0101 0
+b1110 1
+b1011 2
+b0000 3
+b1011 4
+b0000 5
+b1011 6
+b1011 7
+18
+09
+0:
+0;
+1<
+0=
+1>
+0?
+1@
+0A
+1B
+UC
+1D
+0E
+0F
+1G
+0H
+1I
+1J
+0K
+1L
+1M
+0N
+0O
+0P
+1Q
+0R
+0S
+1T
+0U
+0V
+0W
+0X
+0Y
+1Z
+0[
+1\
+0]
+1^
+0_
+1`
+0a
+0b
+1c
+0d
+1e
+0f
+0g
+0h
+0i
+1j
+0k
+0l
+0m
+1n
+1o
+0p
+1q
+0r
+1s
+Ut
+0u
+1v
+0w
+0x
+1y
+1z
+0{
+1|
+1}
+0!"
+1""
+0#"
+0$"
+1%"
+0&"
+1'"
+1("
+0)"
+0*"
+1+"
+0,"
+1-"
+0."
+1/"
+10"
+01"
+12"
+03"
+04"
+15"
+06"
+17"
+08"
+19"
+0:"
+0;"
+0<"
+0="
+0>"
+0?"
+0@"
+1A"
+1B"
+0C"
+0D"
+0E"
+0F"
+0G"
+UH"
+0I"
+0J"
+0K"
+0L"
+0M"
+0N"
+0O"
+0P"
+0Q"
+0R"
+0S"
+0T"
+0U"
+0V"
+0W"
+0X"
+0Y"
+0Z"
+0["
+0\"
+0]"
+0^"
+0_"
+0`"
+0a"
+0b"
+0c"
+0d"
+0e"
+0f"
+0g"
+0h"
+0i"
+0j"
+0k"
+0l"
+0m"
+0n"
+1o"
+0p"
+0q"
+0r"
+1s"
+1t"
+0u"
+1v"
+0w"
+1x"
+Uy"
+0z"
+1{"
+0|"
+0}"
+1!#
+1"#
+0##
+1$#
+1%#
+0&#
+1'#
+0(#
+0)#
+1*#
+0+#
+1,#
+1-#
+0.#
+0/#
+10#
+01#
+12#
+03#
+14#
+15#
+06#
+17#
+08#
+09#
+1:#
+0;#
+1<#
+0=#
+1>#
+0?#
+0@#
+0A#
+#100000000
+b001 #
+b1011 $
+b001 *
+b1011 +
+b1110 7
+#200000000
+b010 #
+b1110 $
+b010 *
+b1110 +
+b1011 7
+#300000000
+b011 #
+b1011 $
+b011 *
+b1011 +
+b0000 7
+#400000000
+b100 #
+b1011 $
+0'
+b100 *
+b1011 +
+0.
+X/
+bXXXX 5
+bXXXX 6
+bXXXX 7
+X;
+XA
+XB
+XP
+XQ
+XR
+XS
+XT
+XV
+XX
+XY
+X[
+X\
+X^
+Xa
+Xb
+Xc
+Xe
+Xg
+Xh
+Xk
+Xl
+Xr
+Xs
+X#"
+X$"
+X%"
+X&"
+X'"
+X("
+X)"
+X,"
+X-"
+X/"
+X0"
+X1"
+X2"
+X3"
+X5"
+X7"
+X8"
+X9"
+X:"
+X<"
+X?"
+X@"
+XF"
+XG"
+XT"
+XU"
+XV"
+XW"
+XX"
+XY"
+XZ"
+X]"
+X^"
+X`"
+Xa"
+Xb"
+Xc"
+Xd"
+Xf"
+Xh"
+Xi"
+Xj"
+Xk"
+Xm"
+Xp"
+Xq"
+Xw"
+Xx"
+X(#
+X)#
+X*#
+X+#
+X,#
+X-#
+X.#
+X1#
+X2#
+X4#
+X5#
+X6#
+X7#
+X8#
+X:#
+X<#
+X=#
+X>#
+X?#
+XA#
+#500000000
+b101 #
+bXXXX $
+X&
+b101 *
+bXXXX +
+X-
+b0101 7
+#600000000
+b110 #
+b0101 $
+b110 *
+b0101 +
+b1011 7
+#700000000
+b111 #
+b1011 $
+b111 *
+b1011 +
+b0000 7
+#800000000
