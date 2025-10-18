@@ -1,5 +1,5 @@
 $date
-  Sat Oct 18 12:54:29 2025
+  Sat Oct 18 19:40:04 2025
 $end
 $version
   GHDL v0
@@ -29,15 +29,15 @@ $var reg 4 + ans[3:0] $end
 $var reg 1 , equals $end
 $var reg 1 - carry $end
 $var reg 1 . zero $end
-$var reg 1 / sub_s $end
-$var reg 4 0 notb_s[3:0] $end
-$var reg 4 1 nota_s[3:0] $end
-$var reg 4 2 or_ab_s[3:0] $end
-$var reg 4 3 and_ab_s[3:0] $end
-$var reg 4 4 xor_ab_s[3:0] $end
-$var reg 4 5 cout_s[3:0] $end
-$var reg 4 6 sum_s[3:0] $end
-$var reg 4 7 ans_s[3:0] $end
+$var reg 1 / sub $end
+$var reg 4 0 notb[3:0] $end
+$var reg 4 1 nota[3:0] $end
+$var reg 4 2 or_ab[3:0] $end
+$var reg 4 3 and_ab[3:0] $end
+$var reg 4 4 xor_ab[3:0] $end
+$var reg 4 5 cout[3:0] $end
+$var reg 4 6 sum[3:0] $end
+$var reg 4 7 res_ab[3:0] $end
 $scope module bit1alu_inst0 $end
 $var reg 1 8 a $end
 $var reg 1 9 b $end
@@ -329,14 +329,14 @@ $enddefinitions $end
 b0001 !
 b1010 "
 b000 #
-b1U11 $
+b1011 $
 0%
 0&
 0'
 b0001 (
 b1010 )
 b000 *
-b1U11 +
+b1011 +
 0,
 0-
 0.
@@ -547,143 +547,206 @@ Uy"
 0A#
 #100000000
 b001 #
-b1011 $
+b1110 $
 b001 *
-b1011 +
+b1110 +
 b1110 7
 #200000000
 b010 #
-b1110 $
+b1011 $
 b010 *
-b1110 +
+b1011 +
 b1011 7
 #300000000
 b011 #
-b1011 $
+b0000 $
+1'
 b011 *
-b1011 +
+b0000 +
+1.
 b0000 7
 #400000000
 b100 #
-b1011 $
+b0111 $
 0'
 b100 *
-b1011 +
+b0111 +
 0.
-X/
-bXXXX 5
-bXXXX 6
-bXXXX 7
-X;
-XA
-XB
-XP
-XQ
-XR
-XS
-XT
-XV
-XX
-XY
-X[
-X\
-X^
-Xa
-Xb
-Xc
-Xe
-Xg
-Xh
-Xk
-Xl
-Xr
-Xs
-X#"
-X$"
-X%"
-X&"
-X'"
-X("
-X)"
-X,"
-X-"
-X/"
-X0"
-X1"
-X2"
-X3"
-X5"
-X7"
-X8"
-X9"
-X:"
-X<"
-X?"
-X@"
-XF"
-XG"
-XT"
-XU"
-XV"
-XW"
-XX"
-XY"
-XZ"
-X]"
-X^"
-X`"
-Xa"
-Xb"
-Xc"
-Xd"
-Xf"
-Xh"
-Xi"
-Xj"
-Xk"
-Xm"
-Xp"
-Xq"
-Xw"
-Xx"
-X(#
-X)#
-X*#
-X+#
-X,#
-X-#
-X.#
-X1#
-X2#
-X4#
-X5#
-X6#
-X7#
-X8#
-X:#
-X<#
-X=#
-X>#
-X?#
-XA#
+1/
+b0001 5
+b0111 6
+b0111 7
+1:
+1;
+1A
+1B
+1O
+1P
+1Q
+1R
+1S
+0T
+0U
+1V
+1X
+1Y
+1[
+0\
+1]
+0^
+0_
+1a
+1b
+0c
+1d
+1e
+0f
+1g
+1h
+1k
+1l
+1#"
+1$"
+0'"
+0("
+1,"
+0-"
+0/"
+00"
+11"
+02"
+05"
+07"
+18"
+1@"
+1G"
+1U"
+1V"
+1X"
+1Y"
+1]"
+1^"
+1`"
+1a"
+1c"
+1f"
+1h"
+1j"
+1q"
+0x"
+1)#
+0*#
+0,#
+0-#
+11#
+02#
+04#
+05#
+07#
+0:#
+0<#
+0>#
 #500000000
 b101 #
-bXXXX $
-X&
+b0101 $
 b101 *
-bXXXX +
-X-
+b0101 +
+0/
+b0000 5
+b1011 6
 b0101 7
+0:
+0;
+0A
+1B
+0O
+0P
+1Q
+0R
+0S
+1T
+0V
+0X
+0Y
+0[
+1\
+0]
+1^
+0a
+0b
+1c
+0d
+1e
+0g
+0h
+0k
+0l
+0r
+1s
+0#"
+0$"
+1%"
+0&"
+1'"
+1("
+0)"
+0,"
+1-"
+1/"
+10"
+01"
+12"
+03"
+15"
+17"
+08"
+19"
+0:"
+0<"
+0?"
+0@"
+0G"
+0T"
+0U"
+0V"
+0X"
+0Y"
+0]"
+0^"
+0`"
+0a"
+0b"
+0c"
+0f"
+0h"
+0i"
+0j"
+0q"
+1x"
+0)#
+1*#
+1,#
+1-#
+01#
+12#
+14#
+15#
+17#
+1:#
+1<#
+1>#
 #600000000
 b110 #
-b0101 $
+b1011 $
 b110 *
-b0101 +
+b1011 +
 b1011 7
 #700000000
 b111 #
-b1011 $
+b0000 $
+1'
 b111 *
-b1011 +
+b0000 +
+1.
 b0000 7
 #800000000
